@@ -10,7 +10,6 @@ import Routes from './routes';
 const App: React.FC = () => (
   <BrowserRouter>
     <AppProvider>
-      {/* <SignUp /> */}
       <Routes />
     </AppProvider>
     <GlobalStyle />
